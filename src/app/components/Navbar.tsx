@@ -40,7 +40,7 @@ const Navbar = () => {
           }}
         >
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Your Name &nbsp;
+            Jason Jiang &nbsp;
             <span className="hidden sm:block">| Portfolio</span>
           </p>
         </Link>
