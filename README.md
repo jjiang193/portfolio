@@ -4,7 +4,7 @@ A modern, interactive portfolio website built with Next.js, Tailwind CSS, and Th
 
 ## Live Demo
 
-Visit the live portfolio at: [https://jjiang193.github.io/portfolio/](https://jjiang193.github.io/portfolio/)
+Visit the live portfolio at: [https://jjiang-portfolio.vercel.app/](https://jjiang-portfolio.vercel.app/)
 
 ## Features
 
@@ -56,21 +56,27 @@ Visit the live portfolio at: [https://jjiang193.github.io/portfolio/](https://jj
 
 ## Deployment
 
-### GitHub Pages
+### Vercel Deployment
 
-This portfolio is automatically deployed to GitHub Pages using GitHub Actions. Any push to the master branch will trigger a new deployment.
+This portfolio is deployed on Vercel, which provides the best experience for Next.js applications.
 
 To deploy your own version:
+
 1. Fork this repository
-2. Update the `basePath` in `next.config.ts` to match your repository name
-3. Push to your repository
-4. Enable GitHub Pages in your repository settings
-
-### Other Platforms
-
-This portfolio can also be deployed on Vercel:
+2. Create an account on [Vercel](https://vercel.com) if you don't have one
+3. Create a new project on Vercel and import your GitHub repository
+4. Vercel will automatically detect that it's a Next.js project and set up the build configuration
+5. Click "Deploy" and your site will be live in minutes!
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/jjiang193/portfolio)
+
+### Custom Domain
+
+If you have a custom domain, you can easily configure it in the Vercel dashboard:
+
+1. Go to your project settings in Vercel
+2. Navigate to the "Domains" section
+3. Add your custom domain and follow the instructions to set up DNS
 
 ## License
 

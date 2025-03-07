@@ -1,10 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  basePath: '/portfolio',
-  images: {
-    unoptimized: true,
-  },
+  // No special configuration needed for Vercel
 };
 
 export default nextConfig;
