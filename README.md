@@ -1,6 +1,6 @@
 # Jason Jiang's Portfolio
 
-A modern, interactive portfolio website built with Next.js, Tailwind CSS, and Three.js.
+A modern, interactive portfolio website built with Next.js and Tailwind CSS.
 
 ## Live Demo
 
@@ -8,7 +8,6 @@ Visit the live portfolio at: [https://jjiang-portfolio.vercel.app/](https://jjia
 
 ## Features
 
-- Interactive 3D elements using Three.js
 - Responsive design for all screen sizes
 - Smooth animations with Framer Motion
 - Modern UI with gradient effects
@@ -19,9 +18,8 @@ Visit the live portfolio at: [https://jjiang-portfolio.vercel.app/](https://jjia
 - Next.js 15
 - TypeScript
 - Tailwind CSS
-- Three.js
 - Framer Motion
-- React Three Fiber
+- React Vertical Timeline
 
 ## Getting Started
 
@@ -84,5 +82,5 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
-- Inspired by various 3D portfolio designs
+- Inspired by various portfolio designs
 - Built with the help of modern web technologies
