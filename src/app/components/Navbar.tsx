@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
@@ -41,7 +40,7 @@ const Navbar = () => {
           }}
         >
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Jason Jiang &nbsp;
+            Your Name &nbsp;
             <span className="hidden sm:block">| Portfolio</span>
           </p>
         </Link>

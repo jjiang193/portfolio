@@ -3,8 +3,6 @@
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
 import SectionWrapper from "../utils/SectionWrapper";
-import Image from "next/image";
-
 
 const About = () => {
   return (

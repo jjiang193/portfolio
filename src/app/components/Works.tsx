@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import SectionWrapper from "../utils/SectionWrapper";
-import Image from "next/image";
 
 const ProjectCard = ({
   index,
