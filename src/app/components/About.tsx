@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import SectionWrapper from "../utils/SectionWrapper";
 import Image from "next/image";
@@ -21,13 +20,9 @@ const About = () => {
           className="w-full md:w-1/3 flex justify-center"
         >
           <div className="w-[250px] h-[250px] rounded-full overflow-hidden border-4 border-[#915eff]">
-          <Image 
-            src="/images/profile.jpg" 
-            alt="Jason Jiang" 
-            width={250} 
-            height={250}
-            className="object-cover"
-            />
+            <div className="w-full h-full bg-gradient-to-br from-purple-500 to-indigo-700 flex items-center justify-center text-white text-4xl">
+              JJ
+            </div>
           </div>
         </motion.div>
 
@@ -39,7 +34,7 @@ const About = () => {
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            I'm Jason Jiang, a Computer Science student at the University of Maryland. Previously at Amazon Project Kuiper, I developed satellite monitoring systems using React.js and machine learning. My background includes full-stack development for the National Children's Hospital, where I automated clinical processes, and machine learning research at the University of Delaware focusing on medical imaging applications. With expertise in Python, Java, JavaScript, and frameworks like React and TensorFlow, I blend software engineering with data science to create impactful solutions. Beyond my professional work, I'm passionate about applying my technical skills to projects like my Premier League Match Predictor, which achieved 78% accuracy using CNN models trained on historical fixture data.
+            I&apos;m Jason Jiang, a Computer Science student at the University of Maryland. Previously at Amazon Project Kuiper, I developed satellite monitoring systems using React.js and machine learning. My background includes full-stack development for the National Children&apos;s Hospital, where I automated clinical processes, and machine learning research at the University of Delaware focusing on medical imaging applications. With expertise in Python, Java, JavaScript, and frameworks like React and TensorFlow, I blend software engineering with data science to create impactful solutions. Beyond my professional work, I&apos;m passionate about applying my technical skills to projects like my Premier League Match Predictor, which achieved 78% accuracy using CNN models trained on historical fixture data.
           </motion.p>
         </motion.div>
       </div>

@@ -7,7 +7,16 @@ import { education } from "../constants";
 import { textVariant } from "../utils/motion";
 import SectionWrapper from "../utils/SectionWrapper";
 
-const EducationCard = ({ education }: { education: any }) => {
+interface EducationItem {
+  title: string;
+  company_name: string;
+  icon: string;
+  iconBg: string;
+  date: string;
+  points: string[];
+}
+
+const EducationCard = ({ education }: { education: EducationItem }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{

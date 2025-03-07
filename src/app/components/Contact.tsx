@@ -109,8 +109,8 @@ const Contact = () => {
         >
           <div className="h-full w-full bg-gradient-to-r from-purple-500 to-indigo-500 rounded-2xl flex items-center justify-center">
             <div className="text-white text-center p-8">
-              <h3 className="text-2xl font-bold mb-4">Let's Connect!</h3>
-              <p className="mb-6">I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+              <h3 className="text-2xl font-bold mb-4">Let&apos;s Connect!</h3>
+              <p className="mb-6">I&apos;m always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
               <div className="flex justify-center space-x-4">
                 <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="text-4xl">
                   <span>🐙</span>

@@ -7,7 +7,16 @@ import { experiences } from "../constants";
 import { textVariant } from "../utils/motion";
 import SectionWrapper from "../utils/SectionWrapper";
 
-const ExperienceCard = ({ experience }: { experience: any }) => {
+interface ExperienceItem {
+  title: string;
+  company_name: string;
+  icon: string;
+  iconBg: string;
+  date: string;
+  points: string[];
+}
+
+const ExperienceCard = ({ experience }: { experience: ExperienceItem }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
