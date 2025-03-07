@@ -2,6 +2,10 @@
 
 A modern, interactive portfolio website built with Next.js, Tailwind CSS, and Three.js.
 
+## Live Demo
+
+Visit the live portfolio at: [https://jjiang193.github.io/portfolio/](https://jjiang193.github.io/portfolio/)
+
 ## Features
 
 - Interactive 3D elements using Three.js
@@ -30,7 +34,7 @@ A modern, interactive portfolio website built with Next.js, Tailwind CSS, and Th
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/jjiang193/portfolio.git
    cd portfolio
    ```
 
@@ -50,7 +54,23 @@ A modern, interactive portfolio website built with Next.js, Tailwind CSS, and Th
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
+## Deployment
 
+### GitHub Pages
+
+This portfolio is automatically deployed to GitHub Pages using GitHub Actions. Any push to the master branch will trigger a new deployment.
+
+To deploy your own version:
+1. Fork this repository
+2. Update the `basePath` in `next.config.ts` to match your repository name
+3. Push to your repository
+4. Enable GitHub Pages in your repository settings
+
+### Other Platforms
+
+This portfolio can also be deployed on Vercel:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/jjiang193/portfolio)
 
 ## License
 
