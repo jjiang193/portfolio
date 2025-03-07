@@ -3,6 +3,8 @@
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
 import SectionWrapper from "../utils/SectionWrapper";
+import Image from "next/image";
+
 
 const About = () => {
   return (
@@ -18,9 +20,13 @@ const About = () => {
           className="w-full md:w-1/3 flex justify-center"
         >
           <div className="w-[250px] h-[250px] rounded-full overflow-hidden border-4 border-[#915eff]">
-            <div className="w-full h-full bg-gradient-to-br from-purple-500 to-indigo-700 flex items-center justify-center text-white text-4xl">
-              JJ
-            </div>
+          <Image 
+            src="/images/profile.jpg" 
+            alt="Jason Jiang" 
+            width={250} 
+            height={250}
+            className="object-cover"
+            />
           </div>
         </motion.div>
 
