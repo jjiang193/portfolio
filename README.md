@@ -50,11 +50,7 @@ A modern, interactive portfolio website built with Next.js, Tailwind CSS, and Th
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-## Deployment
 
-This portfolio can be easily deployed on Vercel:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/portfolio)
 
 ## License
 
