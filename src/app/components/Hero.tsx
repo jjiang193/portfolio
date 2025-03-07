@@ -1,7 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
-
 // Hero component with simplified design
 const Hero = () => {
   return (

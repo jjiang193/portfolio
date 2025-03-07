@@ -80,7 +80,4 @@ If you have a custom domain, you can easily configure it in the Vercel dashboard
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## Acknowledgements
 
-- Inspired by various portfolio designs
-- Built with the help of modern web technologies
