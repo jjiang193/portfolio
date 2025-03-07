@@ -5,6 +5,7 @@ import { OrbitControls, Preload } from "@react-three/drei";
 import { Suspense } from "react";
 import { motion } from "framer-motion";
 
+// ComputersCanvas component for the 3D element
 const ComputersCanvas = () => {
   return (
     <Canvas
